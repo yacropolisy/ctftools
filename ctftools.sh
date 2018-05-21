@@ -24,3 +24,5 @@ wget https://github.com/downloads/0vercl0k/rp/rp-lin-x64 -O $HOME/bin/rp
 wget https://github.com/slimm609/checksec.sh/archive/1.6.tar.gz 
 tar zxvf 1.6.tar.gz -C $HOME  && rm 1.6.tar.gz
 mv checksec.sh-1.6/checksec $HOME/bin/checksec
+# install socat
+sudo apt-get install socat

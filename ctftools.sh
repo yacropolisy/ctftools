@@ -11,7 +11,8 @@ sudo apt-get install ltrace
 # install ghex
 sudo apt-get -y install ghex
 # install radare2
-git clone https://github.com/radare/radare2 ~/ && sudo ~/radare2/sys/install.sh
+git clone https://github.com/radare/radare2 ~/radare2
+sudo ~/radare2/sys/install.sh
 # install gdb-peda
 sudo apt-get install -y build-essential gcc-multilib gdb
 git clone https://github.com/longld/peda.git ~/peda
